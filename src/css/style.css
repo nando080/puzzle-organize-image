@@ -26,6 +26,17 @@ body {
     background-color: var(--gray-03);
 }
 
+.container {
+    padding-top: 1.5rem;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
 .options__label {
     font-family: "Manufacturing Consent", serif;
     font-size: 2rem;
@@ -43,6 +54,15 @@ body {
     padding: .125rem;
     background-color: var(--gray-04);
     cursor: pointer;
+    display: flex;
+}
+
+.options__toggle--easy {
+    justify-content: flex-start;
+}
+
+.options__toggle--regular {
+    justify-content: flex-end;
 }
 
 .options__toggle-button {
